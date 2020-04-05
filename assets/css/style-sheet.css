@@ -1,0 +1,420 @@
+/* global css part start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+p{
+    font-family: 'Maven Pro', sans-serif;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+a:hover{
+    text-decoration: none;
+    outline: none;
+}
+.global-btn{
+    padding: 10px 30px;
+    background: #f2f2f2;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+.global-btn h6{
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    padding: 0px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.global-btn a{
+    color: #000;
+    font-size: 20px;
+}
+/* global css part end */
+/* header css part start */
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 99999;
+}
+header .navbar .navbar-brand {
+    margin-left: 8%;
+}
+header .navbar .navbar-brand img{
+    width: 120px;
+    height: 110px;
+    object-fit: cover;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: black !important;
+    margin-left: 40px;
+}
+.navbar-nav .active .nav-link{
+    color: #511de5 !important;
+    background-image: url(../img/border.png);
+    background-image: url(../img/border.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+header .form-inline{
+    margin-right: 13%;
+}
+header .form-inline a{
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    margin-right: 30px;
+}
+header .form-inline button{
+    padding: 7px 40px;
+    border-radius: 30px;
+    background-image: linear-gradient( -90deg,#009eff,#511de5 100%);
+    border: none;
+}
+header .form-inline button a{
+    margin-right: 0px;
+    color: #fff;
+}
+/* header css part end */
+/* banner css part start  */
+#banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: -70px;
+    position: relative;
+}
+#banner .banner-text{
+    padding-top: 25%;
+    padding-right: 30%;
+}
+#banner .banner-text h1{
+    font-size: 84px;
+    font-weight: 600;
+    padding-left: 10%
+}
+#banner .banner-text h1 span{
+    color: #511de5;
+}
+.bottom-img{
+    background-image: url(../img/parson.png);
+    z-index: 9999;
+    position: absolute;
+    width: 280px;
+    height: 285px;
+    background-size: cover;
+    bottom: 0;
+    right: 150px;
+}
+/* banner css part end  */
+/* highlight css part start */
+#highlight{
+    padding: 70px 0px;
+    background-image: url(../img/banner-2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+#highlight .highlight-text{}
+#highlight .highlight-text h4{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 0px 100px;
+}
+#highlight .highlight-img-1{
+    background-image: url(../img/W.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 300px;
+    height: 170px;
+    top: -55px;
+    left: 328px;
+}
+#highlight .highlight-img-2{
+    background-image: url(../img/object-2.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 125px;
+    position: absolute;
+    bottom: 65px;
+    right: 250px;
+}
+/* highlight css part end */
+/* feature  part start */
+#feature{
+    padding: 100px 0px;
+}
+#feature .feature-box{
+    padding: 80px 20px 0px 20px;
+    box-shadow: -1px -1px 20px 12px #b3969626;
+    box-sizing: border-box;
+}
+#feature .feature-box .inner-box h1{
+    font-size: 58px;
+    font-weight: 900;
+}
+#feature .feature-box .inner-box p.first-p{
+    margin: 25px 0px 40px 0px;
+}
+#feature .feature-box .inner-box h6{
+    font-size: 130px;
+    background: linear-gradient(to right, #330867 0%, #009eff 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    float: left;
+    margin-right: 30px;
+}
+#feature .feature-box .inner-box p.last-p{
+    margin-top: 22%;
+    font-weight: 700;
+}
+#feature .feature-box .inner-img img{
+    width: 410px;
+    height: 480px;
+    object-fit: cover;
+    margin-top: 53%;
+}
+#feature .company-logo{
+    margin-top: 40px;
+    text-align: center;
+}
+/* feature  part end */
+/* intro css part start */
+#intro{
+    width: 100%;
+    background-image: url(../img/shape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#intro .quote-text{
+    background-image: url(../img/intro-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 480px;
+    height: 450px;
+    margin-top: 255px;
+    margin-bottom: 260px;
+}
+#intro .quote-text p{
+    font-size: 20px;
+    padding-top: 130px;
+    padding-left: 140px;
+    padding-right: 20px;
+    color: #fff;
+}
+#intro .quote-text h6{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 140px;
+}
+#intro .intro-text{
+    margin-top: 350px;
+}
+#intro .intro-text h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+#intro .intro-text .intro-btn{
+    background: #fff;
+}
+/* intro css part end */
+/* efficiency css part start */
+#efficiency{
+    padding: 50px 0px;
+}
+#efficiency .efficiency-text{}
+#efficiency .efficiency-text h2{
+    font-size: 58px;
+    font-weight: bold;
+}
+#efficiency .efficiency-text p{
+    margin: 30px 0px;
+}
+#efficiency .efficiency-text .efficiency-inner-text{}
+#efficiency .efficiency-text .efficiency-inner-text i{
+    float: left;
+    font-size: 20px;
+    margin-right: 25px;
+}
+#efficiency i.far.fa-chart-bar {
+    color: #511de5;
+}
+#efficiency i.fas.fa-cloud-upload-alt {
+    color: #0c8afb;
+}
+#efficiency .efficiency-text .efficiency-inner-text h6{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+#efficiency .efficiency-btn{
+    background-image: linear-gradient( -90deg,#009eff,#511de5 100%);
+    color: #fff;
+    padding: 10px 50px;
+}
+#efficiency .efficiency-btn a{
+    color: #fff;
+}
+/* efficiency css part end */
+/* feedback part start */
+#feedback{
+    padding: 80px 0px;
+    background: #fcfcfc;
+    border: 0px solid #e9e9e9;
+    border-bottom-width: 2px;
+}
+#feedback .feedback-text h2{
+    font-size: 58px;
+    font-weight: 700;
+    padding: 0px 160px;
+}
+#feedback .feedback-text p{
+    padding: 0px 225px;
+    margin: 30px 0px 70px;
+}
+#feedback .feedback-types h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+#feedback .feedback-types p{
+    padding: 0px 45px;
+}
+/* feedback part end */
+/* quotes part start */
+#quotes{
+    padding: 100px 0px;
+}
+#quotes .quote-title{
+    margin-bottom: 80px;
+}
+#quotes .quote-title h2{
+    font-size: 86px;
+    font-weight: 700;
+}
+#quotes .quote-text{
+    border: 1px solid #e9e9e9;
+    background-image: url(../img/quote-opacity-shape.png);
+    background-position-y: -40px;
+    background-position-x: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#quotes .quote-text h5{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 100px 15px;
+    border: 0px solid #e9e9e9;
+    border-bottom-width: 1px;
+}
+#quotes .quote-text .quote-author{}
+#quotes .quote-text .quote-author .author-img img{
+    margin: 20px 0px;
+}
+#quotes .quote-text .quote-author .author-name h6{
+    font-size: 15px;
+    font-weight: 900;
+}
+#quotes .quote-text .quote-author .author-name h6 span{
+    font-size: 12px;
+    font-weight: 500;
+}
+#quotes .quote-text:hover.quote-text h5{
+    background: linear-gradient(to left, #009eff 0%, #330867 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#quotes .quote-text:hover.quote-text .quote-author .author-name h6{
+    color: #000;
+}
+.quote-text .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff7a;
+    z-index: 99999999999
+}
+#quotes .quote-text:hover.quote-text .overlay{
+    background-color: #ffffff00;
+}
+#quotes .quote-text:hover{
+    box-shadow: -1px -1px 9px 7px #b3969626;
+}
+/* quotes part end */
+/* question part start */
+#question{
+    padding-top: 50px;
+    width: 100%;
+    height: 1100px;
+    background-image: url(../img/footer-shape.png);
+    background-position-x: -329px;
+    background-position-y: 127px;
+    background-repeat: no-repeat;
+    z-index: -9999;
+}
+#question .question-title{
+    padding: 100px 60px;
+    box-shadow: -1px -1px 9px 7px #b3969626;
+    position: relative;
+    background-color: #fff;
+}
+#question .question-title h2{
+    text-align: center;
+    font-size: 86px;
+    font-weight: 900;
+    margin-bottom: 140px;
+}
+#question .question-title h6{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+#question .question-title p{
+    margin-bottom: 50px;
+}
+#question .question-title h6.blue{
+    color: #0000ff;
+}
+.footer-text ul{
+    margin-top: 130px;
+}
+.footer-text ul li{
+    float: left;
+    list-style: none;
+    margin-right: 40px;
+}
+.footer-text ul li a{
+    color: #fff;
+    font-weight: 700;
+}
+.copyright-text{
+    margin-top: 128px;
+}
+
+.copyright-text h6{
+    font-size: 18px;
+    font-weight: 700px;
+    color: #fff;
+}
+/* question part end */
